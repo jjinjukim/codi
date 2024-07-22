@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:musinsa
+    driver-class-name: org.h2.Driver
+    username: admin
+    password: qwer1234
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+    defer-datasource-initialization: true
+
+springdoc:
+  swagger-ui:
+    path: /musinsa/swagger-ui/index.html
+#    path: /musinsa/swagger.html
