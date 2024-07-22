@@ -47,7 +47,7 @@ API 목록
     - http://localhost:8080/h2-console
     - 애플리케이션이 시작될 때 H2 인메모리 데이터베이스가 data.sql 파일을 실행하여 자동으로 초기화합니다.
 2. API 문서 codi
-    - http://localhost:8080/musinsa/codi/swagger-ui/index.html
+    - http://localhost:8080/musinsa/swagger-ui/index.html
 
 ## 추가 구현 내용
 1. Unit test 및 Integration test 작성
